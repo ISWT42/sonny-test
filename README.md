@@ -1,5 +1,7 @@
 # The Sonny Test
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23117475.svg)](https://doi.org/10.5281/zenodo.23117475)
+
 When an AI agent tells you it's done, how do you know it's true? My answer is one test, and every check I trust has to pass it.
 
 A check passes the Sonny Test only if both of these are true:
@@ -51,6 +53,10 @@ The name changed that night, and both name files are kept as sealed. Corrections
 1. In `record/2026-10-03/`, run `sha256sum -c SHA256SUMS`. Each file must match.
 2. Check each proof. At [opentimestamps.org](https://opentimestamps.org/), drop in a `.ots` file together with the file it seals. Or, with the [OpenTimestamps client](https://github.com/opentimestamps/opentimestamps-client) and a Bitcoin node, run `ots verify THE-NAME-SONNY.md.ots`.
 3. The proof shows the file existed, exactly as it is, by the time of its block. It can't show that no other version was kept aside; that part rests on my word.
+
+## Cite
+
+Bauer, J. (2026). *The Sonny Test: my method for checking an AI agent's "done", and its sealed record* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23117476
 
 ## License
 

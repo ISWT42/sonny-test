@@ -11,6 +11,10 @@ A check passes the Sonny Test only if both of these are true:
 
 A checker that never says "fail" proves nothing. In short: show me the line.
 
+## Scope
+
+The Sonny Test sets minimum requirements for considering a check’s verdict as evidence. Passing those requirements does not establish that the check covers every task requirement or failure mode. The published experiments support conclusions within their stated datasets and conditions; broader reliability requires further testing.
+
 ## Why it's called the Sonny Test
 
 It's named for Sonny, the way Schrödinger's cat names a thought experiment. That was my wish when I wrote up The Watched Check in September, and on 3 October 2026 I made it the method's name. Sonny has his own page at [sonnymade.com](https://www.sonnymade.com/).

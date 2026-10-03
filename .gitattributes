@@ -1,0 +1,3 @@
+# The sealed files must stay byte for byte as sealed: no line-ending changes.
+record/** -text
+*.ots binary

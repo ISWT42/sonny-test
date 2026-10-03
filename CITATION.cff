@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use the Sonny Test, please cite it as below."
+type: dataset
+title: "The Sonny Test: my method for checking an AI agent's \"done\", and its sealed record"
+authors:
+  - family-names: Bauer
+    given-names: Joshua
+    orcid: "https://orcid.org/0009-0003-1652-2479"
+version: 1.0.0
+date-released: 2026-10-03
+license: CC-BY-4.0
+repository-code: "https://github.com/ISWT42/sonny-test"
+url: "https://www.jdbauer.ca"
+keywords:
+  - AI agents
+  - AI evaluation
+  - verification
+  - OpenTimestamps

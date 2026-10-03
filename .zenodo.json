@@ -1,0 +1,37 @@
+{
+  "title": "The Sonny Test: my method for checking an AI agent's \"done\", and its sealed record",
+  "upload_type": "other",
+  "description": "<p>When an AI agent says it's done, how do you know it's true? A check passes the Sonny Test only if its verdict comes from a record the AI being tested can't change, and only if it has already caught a fault planted on purpose. This record holds the method, its name, and my history with it, sealed with OpenTimestamps on 3 October 2026 and confirmed in Bitcoin blocks 969668 to 969672. The files are published exactly as sealed.</p>",
+  "creators": [
+    {
+      "name": "Bauer, Joshua",
+      "orcid": "0009-0003-1652-2479"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "AI agents",
+    "AI evaluation",
+    "verification",
+    "status reporting",
+    "OpenTimestamps",
+    "the Sonny Test"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.34740/kaggle/w/116515",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23116560",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.34740/kaggle/dsv/20253861",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    }
+  ]
+}

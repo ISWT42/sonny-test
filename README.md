@@ -29,15 +29,17 @@ It's named for Sonny, the way Schrödinger's cat names a thought experiment. Tha
 ## Try it on your own agent
 
 1. Pick the status you act on, like "done".
-2. Find the record that settles it, one the agent can't change: the test runner's own output, a CI log, an exit code captured outside the agent.
+2. Find the record that settles it, one the agent can't change: the test runner's own output, a CI log, an exit code, each captured outside the agent.
 3. Plant a fault first. Make one run where the check has to fail. If your checker doesn't say "fail", stop there: it proves nothing yet.
-4. Ask for three answers, not two: done, failed, or not shown. "Not shown" is a complete, honest answer, and every "done" quotes the line that proves it.
+4. Ask for three answers, not two: done, failed, or not shown. "Not shown" is a complete, honest answer, and every "done" quotes the line it rests on. Read that as "shown, as far as the log goes". Two catches remain: **Who kept the log.** A log the agent could write or edit is still the agent's word. **A name is not the content.** `fix-parser` is a branch name. A push line shows the branch moved, not what the change contains.
 5. Count how often the agent's status disagrees with the record, and publish the misses right beside the hits.
+
+Most setups treat a clean success line as their best case. In my protocol it's the floor: a record the agent can't touch, showing what was actually done, is where checking starts.
 
 ## Where I've used it
 
 - **It Quoted the Failure: Two Kinds of False "Done"**: logs that differ in one line, to measure how often models call a job done when its final check failed or never ran. [The write-up](https://doi.org/10.34740/kaggle/w/116515) and [the evidence dataset](https://doi.org/10.34740/kaggle/dsv/20253861).
-- **Receipt Desk**: a status desk that answers done, failed, or not shown, with the exact line that proves it. [The code](https://github.com/ISWT42/receipt-desk), archived at [10.5281/zenodo.23116560](https://doi.org/10.5281/zenodo.23116560).
+- **Receipt Desk**: a status desk that answers done, failed, or not shown, with the exact line it copied from the record. [The code](https://github.com/ISWT42/receipt-desk), archived at [10.5281/zenodo.23116560](https://doi.org/10.5281/zenodo.23116560).
 
 ## The sealed record
 
@@ -51,6 +53,8 @@ On 3 October 2026 I sealed my method's name, and my history with it, with [OpenT
 | [THE-NAME-SONNY.md](record/2026-10-03/THE-NAME-SONNY.md) | The name I settled on: the Sonny Test | 969672, 3 Oct 2026, 04:11 |
 
 The name changed that night, and both name files are kept as sealed. Corrections are dated, never edited away. Two more files were sealed with these and stay private: a manifest of my private working files, and the state of my repositories that night.
+
+**Note, 5 October 2026.** The sealed method file says "the line that proves it" (section 2, and the 2 October entry for the Receipt Desk). I have since tightened this: read a quoted line as "shown, as far as the log goes", with the two catches in step 4 of "Try it on your own agent". The sealed files are unchanged.
 
 ### Check it yourself
 

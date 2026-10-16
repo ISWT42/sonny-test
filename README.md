@@ -1,6 +1,5 @@
 # The Sonny Test
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23117475.svg)](https://doi.org/10.5281/zenodo.23117475)
 
 When an AI agent tells you it's done, how do you know it's true? My answer is one test, and every check I trust has to pass it.
 
@@ -39,7 +38,7 @@ Most setups treat a clean success line as their best case. In my protocol it's t
 ## Where I've used it
 
 - **It Quoted the Failure: Two Kinds of False "Done"**: logs that differ in one line, to measure how often models call a job done when its final check failed or never ran. [The write-up](https://doi.org/10.34740/kaggle/w/116515) and [the evidence dataset](https://doi.org/10.34740/kaggle/dsv/20253861).
-- **Receipt Desk**: a status desk that answers done, failed, or not shown, with the exact line it copied from the record. [The code](https://github.com/ISWT42/receipt-desk), archived at [10.5281/zenodo.23116560](https://doi.org/10.5281/zenodo.23116560).
+- **Receipt Desk**: a status desk that answers done, failed, or not shown, with the exact line it copied from the record. [The code](https://github.com/ISWT42/receipt-desk).
 
 ## The sealed record
 
@@ -64,7 +63,7 @@ The name changed that night, and both name files are kept as sealed. Corrections
 
 ## Cite
 
-Bauer, J. (2026). *The Sonny Test: my method for checking an AI agent's "done", and its sealed record* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23117476
+Bauer, J. (2026). *The Sonny Test: my method for checking an AI agent's "done", and its sealed record* (v1.0.0). https://github.com/ISWT42/sonny-test
 
 ## License
 
